@@ -1,2 +1,2 @@
-# datascience_blog_post
+# Datasience Blog Post
 A data science blog post for DSCI 542 Lab2
