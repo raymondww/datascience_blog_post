@@ -9,7 +9,7 @@
 <meta name="author" content="Harlow Malloc">
 <meta name="dcterms.date" content="2026-01-14">
 
-<title>Post With Code – How car ‘see’ the roads</title>
+<title>Post With Code – Raymond Wang’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1c33c0780a01951c1c2d77b4a45239a1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-1c33c0780a01951c1c2d77b4a45239a1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,18 +72,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">How car ‘see’ the roads</span>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Raymond Wang’s Blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -114,51 +114,57 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 14, 2026</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Post With Code</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">news</div>
+    <div class="quarto-category">code</div>
+    <div class="quarto-category">analysis</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Harlow Malloc </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 14, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<p>This is a post with executable code.</p>
+</header>
+
+
+<p>Introduction Cars were once designed purely to be driven by people. Over time, vehicles became smarter—first with automatic emergency braking then lane-keeping assistance and now, we’re approaching high driving automation. Imagine a car that navigates city streets, handles highway merges, and parks without any human intervention—but only in specific areas like downtown districts or designated routes. This is today’s autonomy, where vehicles operate independently in controlled environments. Humans use their eyes to perceive the world, while these vehicles depend largely on cameras and computer vision to interpret their environment. But how exactly do cameras enable a car to “see” and make rapid decisions?</p>
+<p>How Cameras Capture the Road Autonomous vehicles use multiple cameras positioned around the car—front, rear, and sides—creating a complete 360-degree view. These cameras capture thousands of images every second, similar to how your smartphone records video, but with much higher precision and speed. Raw camera images aren’t perfect. They might be too dark, blurry, or distorted. Before the car’s computer can analyze them, the images go through preprocessing—automatic adjustments that enhance brightness, sharpen details, and correct lens distortions. Think of it like camera filters in social media but applied instantly and automatically to ensure the clearest possible view.</p>
+<p>Objects Detection Once images are clean, the vehicle must identify what’s in them: Is that a pedestrian? A stop sign? A bicycle? This is where deep learning—a type of artificial intelligence—shines. The system has been trained on millions of labeled images, learning to recognize patterns just like teaching a child by showing examples. When the camera sees a shape with two wheels and a person on top, it instantly recognizes “bicycle.” This happens in milliseconds—faster than a human blink—allowing the car to react immediately to changing road conditions.</p>
+<p>Understanding the Scene Detecting objects isn’t enough. The car needs context: Which parts are safe to drive on? How far away is that truck? Will that pedestrian cross the street? The system uses semantic segmentation to divide images into regions—road, sidewalk, vehicles, sky—essentially color-coding the world. It also estimates depth by combining images from multiple cameras, reassemble to how your two eyes work together to judge distances. This creates a 3D understanding of the environment, helping the car navigate safely.</p>
+<p>Challenges Despite remarkable progress, significant challenges remain: Weather: Heavy rain, fog, or snow can obscure cameras, making object detection unreliable—imagine trying to drive with a dirty windshield.</p>
+<p>Rare scenarios: Unusual situations like construction zones with temporary signs might confuse the system, which relies on patterns it has learned.</p>
+<p>Legal uncertainty: Who’s responsible when an autonomous vehicle causes an accident—the manufacturer, software company, or passenger? Current laws weren’t designed for self-driving cars, and legislators worldwide are still developing liability frameworks and safety standards.</p>
+<p>Conclusion Today’s autonomous vehicles demonstrate impressive image processing capabilities, but perfection remains elusive. Engineers continuously improve these systems through better cameras, smarter algorithms, and more diverse training data. As technology advances and regulations catch up, we move closer to a future where self-driving cars safely share our roads, transforming how we travel and live.</p>
 
 
 

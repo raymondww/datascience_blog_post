@@ -1,30 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "datascience_blog/posts/post-with-code/index.html",
+    "href": "datascience_blog/posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Introduction Cars were once designed purely to be driven by people. Over time, vehicles became smarter—first with automatic emergency braking then lane-keeping assistance and now, we’re approaching high driving automation. Imagine a car that navigates city streets, handles highway merges, and parks without any human intervention—but only in specific areas like downtown districts or designated routes. This is today’s autonomy, where vehicles operate independently in controlled environments. Humans use their eyes to perceive the world, while these vehicles depend largely on cameras and computer vision to interpret their environment. But how exactly do cameras enable a car to “see” and make rapid decisions?\nHow Cameras Capture the Road Autonomous vehicles use multiple cameras positioned around the car—front, rear, and sides—creating a complete 360-degree view. These cameras capture thousands of images every second, similar to how your smartphone records video, but with much higher precision and speed. Raw camera images aren’t perfect. They might be too dark, blurry, or distorted. Before the car’s computer can analyze them, the images go through preprocessing—automatic adjustments that enhance brightness, sharpen details, and correct lens distortions. Think of it like camera filters in social media but applied instantly and automatically to ensure the clearest possible view.\nObjects Detection Once images are clean, the vehicle must identify what’s in them: Is that a pedestrian? A stop sign? A bicycle? This is where deep learning—a type of artificial intelligence—shines. The system has been trained on millions of labeled images, learning to recognize patterns just like teaching a child by showing examples. When the camera sees a shape with two wheels and a person on top, it instantly recognizes “bicycle.” This happens in milliseconds—faster than a human blink—allowing the car to react immediately to changing road conditions.\nUnderstanding the Scene Detecting objects isn’t enough. The car needs context: Which parts are safe to drive on? How far away is that truck? Will that pedestrian cross the street? The system uses semantic segmentation to divide images into regions—road, sidewalk, vehicles, sky—essentially color-coding the world. It also estimates depth by combining images from multiple cameras, reassemble to how your two eyes work together to judge distances. This creates a 3D understanding of the environment, helping the car navigate safely.\nChallenges Despite remarkable progress, significant challenges remain: Weather: Heavy rain, fog, or snow can obscure cameras, making object detection unreliable—imagine trying to drive with a dirty windshield.\nRare scenarios: Unusual situations like construction zones with temporary signs might confuse the system, which relies on patterns it has learned.\nLegal uncertainty: Who’s responsible when an autonomous vehicle causes an accident—the manufacturer, software company, or passenger? Current laws weren’t designed for self-driving cars, and legislators worldwide are still developing liability frameworks and safety standards.\nConclusion Today’s autonomous vehicles demonstrate impressive image processing capabilities, but perfection remains elusive. Engineers continuously improve these systems through better cameras, smarter algorithms, and more diverse training data. As technology advances and regulations catch up, we move closer to a future where self-driving cars safely share our roads, transforming how we travel and live."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "How car ‘see’ the roads",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 11, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Understanding the Road: Computer Vision Technology in Autonomous Vehicles\n\n\n\nexplanation\n\n\n\n\n\n\n\n\n\nJan 14, 2026\n\n\nRaymond Wang\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 11, 2026\n\n\nRaymond Wang\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Understanding the Road: Computer Vision Technology in Autonomous Vehicles/index.html",
+    "href": "posts/Understanding the Road: Computer Vision Technology in Autonomous Vehicles/index.html",
+    "title": "Understanding the Road: Computer Vision Technology in Autonomous Vehicles",
+    "section": "",
+    "text": "For over a century, the relationship between a driver and their vehicle was purely mechanical. You turned a wheel to pull a cable; you pressed a pedal to move a piston. But in the last decade, the automobile has undergone a fundamental metamorphosis. It has evolved from a piece of heavy machinery into a sophisticated, mobile data center."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]

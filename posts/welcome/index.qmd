@@ -1,6 +1,6 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "Welcome to My Blog"
+author: "Raymond Wang"
 date: "2026-01-11"
 categories: [news]
 ---

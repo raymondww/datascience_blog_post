@@ -1,0 +1,9 @@
+---
+title: "Understanding the Road: Computer Vision Technology in Autonomous Vehicles"
+author: "Raymond Wang"
+date: "2026-01-14"
+categories: [explanation]
+image: "image.jpg"
+---
+
+For over a century, the relationship between a driver and their vehicle was purely mechanical. You turned a wheel to pull a cable; you pressed a pedal to move a piston. But in the last decade, the automobile has undergone a fundamental metamorphosis. It has evolved from a piece of heavy machinery into a sophisticated, mobile data center.
